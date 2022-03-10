@@ -22,7 +22,8 @@ const Navbar = () => {
                   Dropdown
                 </a>
 
-              </div></li>
+              </li>
+              </div>
           </div>
       </nav>
 
