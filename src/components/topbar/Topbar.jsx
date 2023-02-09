@@ -1,9 +1,13 @@
-import "./Topbar.scss"
+import "./topbar.scss"
 
-export default function Topbar() {
-  return (
-    <div className="Topbar">
-      
-    </div>
-  )
+export default function topbar() {
+    return (
+        <div className="topbar">
+            <div className="wrapper">
+                <div className="left"></div>
+                <a href="#intro">asdsad</a>
+                <div className="right"></div>
+            </div>
+        </div>
+    )
 }
