@@ -1,5 +1,6 @@
 import "./intro.scss"
 
+
 export default function intro() {
   return (
     <div className="intro" id="intro">
@@ -12,9 +13,11 @@ export default function intro() {
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
           <h1>Dondre Mclenan</h1>
-          <h3>Junior Web Developer</h3>
-
+          <h3>Junior Web Developer<span></span></h3>
         </div>
+        <a href="#portfolio">
+             <img src="assets/" alt=""/>
+        </a>
       </div>
     </div>
   )
