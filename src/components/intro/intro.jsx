@@ -1,5 +1,5 @@
 import "./intro.scss"
-
+  
 
 export default function intro() {
   return (
@@ -16,7 +16,7 @@ export default function intro() {
           <h3>Junior Web Developer<span></span></h3>
         </div>
         <a href="#portfolio">
-             <img src="assets/" alt=""/>
+             <img src="assets/down.png" alt=""/>
         </a>
       </div>
     </div>
