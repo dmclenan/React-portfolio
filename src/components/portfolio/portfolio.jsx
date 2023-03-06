@@ -1,35 +1,70 @@
 import "./portfolio.scss"
 
 export default function portfolio() {
+  const list = [
+    {
+      id: "featured",
+      title: "featured",
+    },
+    {
+      id: "web",
+      title: "Web App",
+    },
+    {
+      id: "mobile",
+      title: "Mobile App",
+    },
+    {
+      id: "design",
+      title: "Design",
+    },
+    {
+      id: "content",
+      title: "Content",
+    },
+  ];
   return (
     <div className="portfolio" id="portfolio">
-      <h1>portfolio</h1>
+      <h1>Portfolio</h1>
       <ul>
-          <li className="active">Featured</li>
-          <li>Web App</li>
-          <li>Mobile App</li>
-          <li>Desing</li>
-          <li>Branding</li>
+
       </ul>
       <div className="container">
-      <img src="" alt=""/>
-      <h3>Banking App</h3>
-      </div>
-      <div className="container">
-      <img src="" alt=""/>
-      <h3>Banking App</h3>
-      </div>
-      <div className="container">
-      <img src="" alt=""/>
-      <h3>Banking App</h3>
-      </div>
-      <div className="container">
-      <img src="" alt=""/>
-      <h3>Banking App</h3>
-      </div>
-      <div className="container">
-      <img src="" alt=""/>
-      <h3>Banking App</h3>
+        <div className="item">
+          <img
+            src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-sketch-circle-image_1177862.jpg"
+            alt=""
+          />
+          <h3>Banking App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-sketch-circle-image_1177862.jpg"
+            alt=""
+          />
+          <h3>Banking App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-sketch-circle-image_1177862.jpg"
+            alt=""
+          />
+          <h3>Banking App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-sketch-circle-image_1177862.jpg"
+            alt=""
+          />
+          <h3>Banking App</h3>
+        </div>
+        <div className="item">
+          <img
+            src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-sketch-circle-image_1177862.jpg"
+            alt=""
+          />
+          <h3>Banking App</h3>
+        </div>
       </div>
     </div>
   )
