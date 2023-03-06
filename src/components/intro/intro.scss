@@ -35,10 +35,11 @@
             
             h1{
                 font-size: 60px;
-                margin: 10px 0;
+                margin: -500px 0;
             }
             h2{
                 font-size: 35px;
+               
               }
             h3{
                 font-size: 30px;
@@ -68,7 +69,10 @@
             left:40%;
 
             img{
-                width: 30px;
+                width: 79px;
+                height: auto;
+                position: absolute;
+                bottom: 100px;
                 animation: arrowBlink 2s infinite;
             }
 
