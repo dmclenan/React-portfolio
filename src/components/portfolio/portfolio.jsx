@@ -1,6 +1,10 @@
+import { useEffect, useState } from "react";
+import portfolioList from "../portfolioList/PortfolioList"
 import "./portfolio.scss"
 
 export default function portfolio() {
+// eslint-disable-next-line react-hooks/rules-of-hooks
+const [selected,setSelected] = useState("featured")
   const list = [
     {
       id: "featured",
@@ -27,7 +31,14 @@ export default function portfolio() {
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <ul>
-
+       {list.map((item) => (
+        <portfolioList 
+        title={item.title} 
+        active={selected === item.id} 
+        setSelected={setSelected}
+        id={item.id}
+        />
+       ))}
       </ul>
       <div className="container">
         <div className="item">
